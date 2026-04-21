@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getUserDownloadHistory } from "@/backend/sevices/downloadService";
+import { getUserDownloadHistory } from "@/backend/services/downloadService";
 import { extractTokenFromHeader, verifyToken } from "@/lib/jwt";
 
 // GET /api/auth/me/downloads

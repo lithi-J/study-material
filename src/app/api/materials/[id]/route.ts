@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getMaterialById, deleteMaterial } from "@/backend/sevices/uploadService";
+import { getMaterialById, deleteMaterial } from "@/backend/services/uploadService";
 import { extractTokenFromHeader, verifyToken } from "@/lib/jwt";
 
 // GET /api/materials/[id]

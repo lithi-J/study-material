@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getAllMaterials, getMaterialsBySubject, createMaterial, uploadFileToStorage } from "@/backend/sevices/uploadService";
+import { getAllMaterials, getMaterialsBySubject, createMaterial, uploadFileToStorage } from "@/backend/services/uploadService";
 import { extractTokenFromHeader, verifyToken } from "@/lib/jwt";
 
 // GET /api/materials (Optionally filter by ?subject=)

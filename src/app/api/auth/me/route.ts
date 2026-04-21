@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { extractTokenFromHeader, verifyToken } from "@/lib/jwt";
-import { getUserByEmail } from "@/backend/sevices/authService";
+import { getUserByEmail } from "@/backend/services/authService";
 
 export async function GET(request: NextRequest) {
   try {

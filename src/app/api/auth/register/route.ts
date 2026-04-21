@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { signUpUser } from "@/backend/sevices/authService";
+import { signUpUser } from "@/backend/services/authService";
 import { generateToken, TokenPayload } from "@/lib/jwt";
 
 export async function POST(request: NextRequest) {

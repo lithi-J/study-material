@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { recordDownload } from "@/backend/sevices/downloadService";
+import { recordDownload } from "@/backend/services/downloadService";
 import { extractTokenFromHeader, verifyToken } from "@/lib/jwt";
 
 // POST /api/materials/[id]/download
