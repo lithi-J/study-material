@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { deleteMaterial } from "../src/backend/sevices/uploadService";
+import { deleteMaterial } from "../src/backend/services/uploadService";
 import { getDataSource } from "../src/lib/typeorm";
 
 async function cleanup() {
